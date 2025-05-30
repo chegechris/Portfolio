@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Info Form</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form action="#" method="post">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone" required><br><br>
+
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" min="1" required><br><br>
+
+  <label for="county">County:</label><br>
+  <select id="county" name="county" required>
+    <option value="">--Select County--</option>
+    <option value="Nairobi">Nairobi</option>
+    <option value="Kiambu">Kiambu</option>
+    <option value="Mombasa">Mombasa</option>
+    <option value="Nakuru">Nakuru</option>
+    <option value="Machakos">Machakos</option>
+  </select><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
